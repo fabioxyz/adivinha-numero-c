@@ -1,3 +1,14 @@
-Jogo em C de adivinhar numero, com utilizacao de rand para gerar numero aleatorio.
+# Jogo de Adivinhar o Número em C
 
-Fabioxyz, 1 semestre IPB.
+Pequeno jogo de terminal desenvolvido em C. O programa gera um número aleatório com `rand()` e desafia o jogador a descobri-lo.
+
+## Objetivo
+
+Projeto académico do primeiro semestre no IPB, criado para praticar lógica de programação, ciclos, condições e números pseudoaleatórios.
+
+## Compilação
+
+```bash
+gcc main.c -o adivinha-numero
+./adivinha-numero
+```
