@@ -1,14 +1,31 @@
-# Jogo de Adivinhar o Número em C
+# Number Guessing Game
 
-Pequeno jogo de terminal desenvolvido em C. O programa gera um número aleatório com `rand()` e desafia o jogador a descobri-lo.
+A small terminal game written in C: guess a randomly generated number before your ten attempts run out.
 
-## Objetivo
+**C · Terminal game · Learning project**
 
-Projeto académico do primeiro semestre no IPB, criado para praticar lógica de programação, ciclos, condições e números pseudoaleatórios.
+## How it works
 
-## Compilação
+- The program chooses a number from **0 to 99**.
+- You have **10 attempts** to find it.
+- After a failed game, you can play again or exit.
+- The terminal interface is in Portuguese.
 
-```bash
+## Learning focus
+
+Loops, conditional statements, functions, console input and pseudorandom numbers. Created during the first semester at IPB.
+
+## Build and run
+
+The current source needs `#include <stdlib.h>` and `#include <time.h>` added before it can be compiled reliably with modern C compilers. After adding those headers, build with GCC:
+
+```sh
 gcc main.c -o adivinha-numero
 ./adivinha-numero
 ```
+
+On Windows, run `.\adivinha-numero.exe`. The prompt currently says “0 to 100”; the actual generated range is 0 to 99.
+
+## Related projects
+
+[Version with difficulty levels](https://github.com/fabioxyz/adivinha-numero-niveis-c) · [All C projects](https://github.com/fabioxyz/projetos-c)
